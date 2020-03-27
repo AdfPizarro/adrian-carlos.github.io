@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Adrian-Carlos Project</title>
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="css/style.css"><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   </head>
 
@@ -14,7 +15,7 @@
         <p class="lead"> This Virus is infecting our World and our Society.</p>
       </div>
 
-          <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light">
+          <nav id="nav-bar" class="navbar navbar-expand-lg navbar-light bg-light" ></>
             <a class="navbar-brand" href="#">Corona</a>
             <div class="collapse navbar-collapse" >
               <div class="navbar-nav">
@@ -24,13 +25,14 @@
               </div>
             </div>
           </nav>
-          <div id="form">
+          <form id="form" action="https://www.freecodecamp.com/email-submit">
             <div class="form-group">
-              <label for="exampleFormControlInput1">Email address</label>
-              <input id="email" type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              <button type="button" class="btn btn-primary">Primary</button>
+              <label for="email">Email address</label>
+              <input id="email" type="email" name="email" class="form-control" id="email" placeholder="name@example.com">
+
+              <input type="submit" id="submit" class="btn btn-primary"name="" value="Send">
             </div>
-          </div>
+          </form>
 
 
 
