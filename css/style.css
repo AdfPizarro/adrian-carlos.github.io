@@ -1,6 +1,18 @@
 .jumbotron{
   background-image: url(https://images.pexels.com/photos/3962264/pexels-photo-3962264.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
   background-position: center;
-
   color: white;
+}
+.form-group{
+  margin-left:25%;
+  margin-right: 25%;
+}
+.btn-primary{
+  margin: 15px;
+}
+#header-img{
+  height: 80px;
+  width: 60px;
+  margin-left: 20px;
+
 }
